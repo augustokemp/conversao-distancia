@@ -10,4 +10,4 @@ COPY . /app
 
 ENV PYTHONPATH=/app
 
-CMD ["gunicorn", "app:app", "--bind=0.0.0.0:5002"]
+CMD ["gunicorn", "app:app", "--bind=0.0.0.0:5000"]
